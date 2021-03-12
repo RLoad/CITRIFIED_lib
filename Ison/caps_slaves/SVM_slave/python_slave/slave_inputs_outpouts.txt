@@ -1,0 +1,32 @@
+new PCE variables:
+
+MV_CONF: 	the confidence of the majority vote
+MV_WINNER:	the winner class
+
+-  OnlineApproach_SVM  -
+------------------------
+
+-input variables:
+CLAS_OUT
+MV_CLAS_OUT
+DAQ_DATA
+PR_MV_ENABLE
+FDOF_ACT
+
+-output variables:
+CLAS_OUT
+MV_CLAS_OUT
+MV_CONF
+MV_WINNER
+
+
+-      dof_handler     -
+------------------------
+
+-input variables:
+MV_CONF
+MV_WINNER
+FDOF_ACT
+
+-output variables:
+FDOF_ACT
